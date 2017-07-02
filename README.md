@@ -1,10 +1,14 @@
 
 Instruction to Setup and run
 ------------------------------------------------------
-This Program is design to run on command line.
+This Program is designed to run on the command line.
 1. Please Clone from git hub 
 2. Change the current directory to the ShoppingCartTestCode Folder
 3. type php main.php to run the program
+
+Git Hub Repository URL
+-------------------------------------------------------------------
+https://github.com/shekhang/ShoppingCartTestCode.git
 
 Steps to test the Program
 ------------------------------------------------------
@@ -12,7 +16,7 @@ Firstly please create several items by using createitem command input with param
 <id> as item id
 <name> as name of the item
 <price> as the price of the time
-<type> which are nothing for normal items, and 'bogo' for buy one get one free items
+<type> which are nothing for normal items, and 'bogo' for buy one get one free item
 
 Here is the example :
 
@@ -21,13 +25,13 @@ this will create a buy one get one free items
 > createitem 2 stickytape 2.35
 this will create a normal items
 
-Secondly you need to add this items to the cart by using command addtocart
-There are 2 ways to add items.
-first is using id which will add the items with ID provided to the cart
+Secondly, you need to add these items to the cart by using command addtocart
+There are two ways to add items.
+First, it is using item id which will add the item with ID provided to the cart
 
 > addtocart 3
 
-second is using all which will add all the items that had been created to the cart
+second, it is using 'all' which will add all the items that had been created to the cart
 
 > addtocart all
 
